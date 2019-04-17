@@ -1,86 +1,74 @@
 {
 	"basics": {
-		"name": "John Doe",
-		"label": "Programmer",
+		"name": "Jesse D. Mallen",
+		"label": ".NET Core Developer & Architect",
 		"picture": "",
-		"email": "john@gmail.com",
-		"phone": "(912) 555-4321",
-		"website": "http://johndoe.com",
-		"summary": "A summary of John Doe...",
+		"email": "askme@foremail.please",
+		"phone" : "",
+		"website": "https://github.com/jdmallen",
+		"summary": "",
 		"location": {
-			"address": "2712 Broadway St",
-			"postalCode": "CA 94115",
-			"city": "San Francisco",
+			"address": "",
+			"postalCode": "",
+			"city": "Buffalo",
 			"countryCode": "US",
-			"region": "California"
+			"region": "New York"
 		},
 		"profiles": [{
+				"network": "LinkedIn",
+				"username": "jdmallen",
+				"url": "https://www.linkedin.com/in/jdmallen"
+			},
+			{
 				"network": "Twitter",
-				"username": "john",
-				"url": "http://twitter.com/john"
+				"username": "jdmallen",
+				"url": "https://twitter.com/jdmallen"
 			}
 		]
 	},
 	"work": [{
-			"company": "Company",
-			"position": "President",
-			"website": "http://company.com",
-			"startDate": "2013-01-01",
-			"endDate": "2014-01-01",
-			"summary": "Description...",
+			"company": "Independent Health",
+			"position": "Application Developer",
+			"website": "http://www.independenthealth.com",
+			"startDate": "2017-10-01",
+			"summary": "Creating and maintaining a variety of .NET and .NET Core applications and libraries for internal and web-facing use.",
 			"highlights": [
-				"Started the company"
+				"Revamping their CI/CD pipeline to rely less on in-house software and more on TFS build/release tasks and PowerShell.",
+				"Developing, repairing, and improving front-end applications written primarily in AngularJS (1.x)."
 			]
 		}
 	],
 	"volunteer": [{
-			"organization": "Organization",
-			"position": "Volunteer",
-			"website": "http://organization.com/",
-			"startDate": "2012-01-01",
-			"endDate": "2013-01-01",
-			"summary": "Description...",
+			"organization": "Snyder Volunteer Fire Department",
+			"position": "Volunteer Firefighter",
+			"website": "http://www.snyderfd.com/",
+			"startDate": "2010-09-01",
+			"endDate": "2011-05-31",
+			"summary": "Served as a 24/7 on-call volunteer firefighter and EMT for the village of Snyder, NY, responding to local medical, traumatic, and fire emergencies in the area.",
 			"highlights": [
-				"Awarded 'Volunteer of the Month'"
+				"Served Snyder as a volunteer while working for Rural/Metro Ambulance as an EMT full time."
 			]
 		}
 	],
 	"education": [{
-			"institution": "University",
-			"area": "Software Development",
+			"institution": "University at Buffalo",
+			"area": "Computer Science",
 			"studyType": "Bachelor",
-			"startDate": "2011-01-01",
-			"endDate": "2013-01-01",
-			"gpa": "4.0",
-			"courses": [
-				"DB1101 - Basic SQL"
-			]
+			"startDate": "2013-01-01",
+			"gpa": "3.68",
+			"courses": []
+		},{
+			"institution": "Binghamton University",
+			"area": "English Literature & Rhetoric",
+			"studyType": "Bachelor",
+			"startDate": "2004-08-01",
+			"endDate": "2008-12-31",
+			"gpa": "3.24",
+			"courses": []
 		}
 	],
-	"awards": [{
-			"title": "Award",
-			"date": "2014-11-01",
-			"awarder": "Company",
-			"summary": "There is no spoon."
-		}
-	],
-	"publications": [{
-			"name": "Publication",
-			"publisher": "Company",
-			"releaseDate": "2014-10-01",
-			"website": "http://publication.com",
-			"summary": "Description..."
-		}
-	],
-	"skills": [{
-			"name": "Web Development",
-			"level": "Master",
-			"keywords": [
-				"HTML",
-				"CSS",
-				"Javascript"
-			]
-		}
+	"skills": [
+		{"name": "Cloud Development", "level": "Proficient", "keywords": [ "Azure", "DigitalOcean" ]}
 	],
 	"languages": [{
 			"language": "English",
@@ -96,8 +84,8 @@
 		}
 	],
 	"references": [{
-			"name": "Jane Doe",
-			"reference": "Reference..."
+			"name": "",
+			"reference": ""
 		}
 	]
 }
